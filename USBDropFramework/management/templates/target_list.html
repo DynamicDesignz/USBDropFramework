@@ -1,0 +1,8 @@
+<h1>Targets</h1>
+<ul>
+{% for target in object_list %}
+    <a href="{% url 'management:test_list' target.id %}">{{ target.name }}</a>
+{% empty %}
+    <li>No targets yet.</li>
+{% endfor %}
+</ul>

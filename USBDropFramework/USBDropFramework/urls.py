@@ -25,5 +25,6 @@ router.register(r'targetdata', TargetDataViewSet)
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^api/', include('API.urls', namespace='api')),
-    url(r'^', include(router.urls))
+    # url(r'^', include(router.urls))
+    url(r'^', include('management.urls', namespace='management'))
 ]
