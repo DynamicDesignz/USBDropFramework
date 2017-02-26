@@ -1,2 +1,4 @@
 # USBDropFramework
-A framework for performing USB Drop pen test including API to keep track and 
+A framework for performing a multitude of Penetration tests
+
+See sample.html for an example of how to post data to the API
